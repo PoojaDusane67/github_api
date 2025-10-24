@@ -17,7 +17,7 @@ jobs:
               run: pip install -r requirements.txt
 
             - name: get data from api
-              run: python read api.py
+              run: python "read api.py"
 
-              
+
           
