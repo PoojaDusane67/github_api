@@ -5,6 +5,6 @@ response = requests.get("https://jsonplaceholder.typicode.com/users")
 data = response.json()
 
 df = pd.DataFrame(data)
-d=df[["id","name","email"]]
+d=df[["id","username","email"]]
 
 print(df)
